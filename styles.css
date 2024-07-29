@@ -1,0 +1,154 @@
+@media (max-width: 768px) {
+  .hideOnSmallDevices {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hideSpecificButtons {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .hideSpecificButtons {
+    display: none;
+  }
+
+  .d-flex {
+    width: 55vw;
+  }
+
+  .mediumNavbar {
+    justify-content: flex-start;
+  }
+
+  .right {
+    width: 15vw;
+    margin-right: 9vw;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .hideOnMobile {
+    display: none;
+  }
+
+  .row {
+    display: initial;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-family: "Poppins", serif;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidebar li {
+  width: 100%;
+}
+
+#iconImage {
+  width: 50px;
+}
+.right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.d-flex input {
+  width: 45vw;
+}
+
+.centerSearch {
+  display: flex;
+  justify-content: left;
+}
+
+.vid {
+  display: flex;
+  justify-content: space-between;
+  height: 75%;
+}
+
+.random {
+  background-color: #d7d0d0;
+}
+
+.vid h2 {
+  flex-wrap: wrap-reverse;
+  font-size: 3vw;
+  font-family: "Playfair Display", serif;
+  margin-top: 30%;
+  margin-right: 40%;
+}
+
+#mainVideo {
+  width: 50%;
+  height: 50%;
+}
+
+.right button {
+  margin: 10px;
+}
+.card-img-top {
+  height: 20vw;
+}
+
+.right button:hover {
+  background-color: #94aef1;
+  color: white;
+}
+.btn-right {
+  border: 1px solid #d7d0d0;
+  padding: 0.37rem 0.75rem;
+  font-weight: 400;
+  border-radius: 20px;
+}
+.menu-item {
+  margin: 30px 0;
+}
+.heading {
+  background-color: rgb(243, 243, 245);
+}
+.row {
+  padding-top: 50px;
+}
+.border-round {
+  border-radius: 25px;
+}
+
+#Menu {
+  display: flex;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
